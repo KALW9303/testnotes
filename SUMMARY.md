@@ -6,4 +6,7 @@
   * [Requests](tripod_package/requests/requests_readme.md)
 * [三方工具](tripod_tools.md)
   * [Jmter](tripod_tools/jmeter/jmeter_readme.md)
+* [SQL](sql.md)
+* [Linux](linux.md)
+* [版本管理](version_control.md)
 
