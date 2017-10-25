@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Jmter · GitBook</title>
+        <title>获取cookies · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../../sql.md" />
+    <link rel="next" href="../../tripod_tools.md" />
     
     
-    <link rel="prev" href="../../tripod_tools.md" />
+    <link rel="prev" href="requests_readme.html" />
     
 
     </head>
@@ -129,9 +129,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1" data-path="../../tripod_package/requests/requests_readme.html">
+        <li class="chapter " data-level="1.3.1" data-path="requests_readme.html">
             
-                <a href="../../tripod_package/requests/requests_readme.html">
+                <a href="requests_readme.html">
             
                     
                     Requests
@@ -143,9 +143,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1.1" data-path="../../tripod_package/requests/requests_getcookies.html">
+        <li class="chapter active" data-level="1.3.1.1" data-path="requests_getcookies.html">
             
-                <a href="../../tripod_package/requests/requests_getcookies.html">
+                <a href="requests_getcookies.html">
             
                     
                     获取cookies
@@ -180,9 +180,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1" data-path="jmeter_readme.html">
+        <li class="chapter " data-level="1.4.1" data-path="../../tripod_tools/jmeter/jmeter_readme.html">
             
-                <a href="jmeter_readme.html">
+                <a href="../../tripod_tools/jmeter/jmeter_readme.html">
             
                     
                     Jmter
@@ -267,7 +267,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Jmter</a>
+        <a href="../.." >获取cookies</a>
     </h1>
 </div>
 
@@ -282,8 +282,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="todo">TODO</h1>
-
+                                <h1 id="requests&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x7684;cookies">requests&#x83B7;&#x53D6;&#x8BF7;&#x6C42;&#x7684;cookies</h1>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x8BBF;&#x95EE;&#x7684;&#x7F51;&#x9875;&#xFF08;&#x767B;&#x5F55;&#xFF09;&#x7684;&#x65F6;&#x5019;&#xFF0C;cookies&#x5927;&#x90FD;&#x662F;&#x7ECF;&#x8FC7;&#x52A0;&#x5BC6;&#x5904;&#x7406;&#x540E;&#x7684;&#x6570;&#x636E;&#x3002;&#x8FD4;&#x56DE;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5B8C;&#x5168;&#x770B;&#x4E0D;&#x61C2;&#xFF01;&#x4E0D;&#x8FC7;&#x5BF9;&#x4E8E;&#x5B83;&#x6211;&#x4EEC;&#x4E0D;&#x9700;&#x8981;&#x770B;&#x61C2;&#x4E5F;&#x80FD;&#x5C06;&#x5B83;&#x8F6C;&#x6362;&#x540E;&#x4F5C;&#x4E3A;requests&#x8BF7;&#x6C42;&#x7684;&#x8BA4;&#x8BC1;&#x53C2;&#x6570;&#xFF0C;&#x5177;&#x4F53;&#x601D;&#x60F3;&#x662F;&#x5C06;requests&#x8BF7;&#x6C42;&#x83B7;&#x53D6;&#x7684;&#x539F;&#x59CB;cookies&#x89E3;&#x6790;&#x4E3A;&#x5B57;&#x5178;&#x683C;&#x5F0F;&#x6570;&#x636E;&#x7684;Cookies&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x83B7;&#x53D6;&#x7684;Cookies&#x653E;&#x5728;requests&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x4E2D;&#x5373;&#x53EF;&#x3002;</p>
+</blockquote>
+<h2 id="&#x83B7;&#x53D6;cookies&#x7684;&#x4EE3;&#x7801;&#x5982;&#x4E0B;">&#x83B7;&#x53D6;cookies&#x7684;&#x4EE3;&#x7801;&#x5982;&#x4E0B;</h2>
+<pre><code>reLogin = requests.post(url = loginURL,data = loginData)
+#&#x5B9A;&#x4E49;&#x5B57;&#x5178;&#x63A5;&#x6536;&#x83B7;&#x53D6;&#x7684;cookies
+crmCookies = {}
+# cookie&#x4E2D;&#x7684;&#x503C;&#x57FA;&#x672C;&#x4EE5;&#x952E;&#x503C;&#x5BF9;&#x5F62;&#x5F0F;&#x5B58;&#x5728;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x5148;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;
+getCookieRegex = &apos;([^ ]+)=([^ ]+)&apos;
+# re&#x5305;&#x627E;&#x51FA;requests&lt;cookies&gt;&#x4E2D;&#x8FD4;&#x56DE;&#x7B26;&#x5408;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x6B63;&#x5219;&#x7684;&#x503C;
+cookies = re.findall(getCookieRegex,originalCookie)
+# &#x904D;&#x5386;&#x51FA;cookies&#x4E2D;key&#x53CA;&#x5BF9;&#x5E94;value&#x5B58;&#x653E;&#x5728;crmCookies
+for i in range(len(cookies)):
+    keys = cookies[i][0]
+    values = cookies[i][1]
+    cookieValue = {keys:values}
+    crmCookies.update(cookieValue)
+    i+=1
+</code></pre>
                                 
                                 </section>
                             
@@ -310,12 +328,12 @@
 
             
                 
-                <a href="../../tripod_tools.md" class="navigation navigation-prev " aria-label="Previous page: 三方工具">
+                <a href="requests_readme.html" class="navigation navigation-prev " aria-label="Previous page: Requests">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../../sql.md" class="navigation navigation-next " aria-label="Next page: SQL">
+                <a href="../../tripod_tools.md" class="navigation navigation-next " aria-label="Next page: 三方工具">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -326,7 +344,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Jmter","level":"1.4.1","depth":2,"next":{"title":"SQL","level":"1.5","depth":1,"path":"sql.md","ref":"sql.md","articles":[]},"previous":{"title":"三方工具","level":"1.4","depth":1,"path":"tripod_tools.md","ref":"tripod_tools.md","articles":[{"title":"Jmter","level":"1.4.1","depth":2,"path":"tripod_tools/jmeter/jmeter_readme.md","ref":"tripod_tools/jmeter/jmeter_readme.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tripod_tools/jmeter/jmeter_readme.md","mtime":"2017-10-24T11:10:42.478Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-25T14:13:55.804Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"获取cookies","level":"1.3.1.1","depth":3,"next":{"title":"三方工具","level":"1.4","depth":1,"path":"tripod_tools.md","ref":"tripod_tools.md","articles":[{"title":"Jmter","level":"1.4.1","depth":2,"path":"tripod_tools/jmeter/jmeter_readme.md","ref":"tripod_tools/jmeter/jmeter_readme.md","articles":[]}]},"previous":{"title":"Requests","level":"1.3.1","depth":2,"path":"tripod_package/requests/requests_readme.md","ref":"tripod_package/requests/requests_readme.md","articles":[{"title":"获取cookies","level":"1.3.1.1","depth":3,"path":"tripod_package/requests/requests_getcookies.md","ref":"tripod_package/requests/requests_getcookies.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tripod_package/requests/requests_getcookies.md","mtime":"2017-10-25T13:55:17.815Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-25T14:13:55.804Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

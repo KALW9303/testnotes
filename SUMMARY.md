@@ -4,6 +4,7 @@
 * [文档约定](protocol.md)
 * [三方架包](tripod_package.md)
   * [Requests](tripod_package/requests/requests_readme.md)
+    * [获取cookies](tripod_package/requests/requests_getcookies.md)
 * [三方工具](tripod_tools.md)
   * [Jmter](tripod_tools/jmeter/jmeter_readme.md)
 * [SQL](sql.md)
