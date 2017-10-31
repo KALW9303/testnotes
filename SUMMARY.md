@@ -1,7 +1,6 @@
 # Summary
 
 * [简介](README.md)
-* [文档约定](protocol.md)
 * [三方架包](tripod_package.md)
   * [Requests](tripod_package/requests/requests_readme.md)
     * [获取cookies](tripod_package/requests/requests_getcookies.md)
@@ -11,4 +10,8 @@
 * [SQL](sql.md)
 * [Linux](linux.md)
 * [版本管理](version_control.md)
+  * [Git](version_control/git.md)
+* [前言](qian-yan.md)
+  * [约定](qian-yan/yue-ding.md)
+  * [注意事项](qian-yan/zhu-yi-shi-xiang.md)
 
