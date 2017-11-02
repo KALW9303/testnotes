@@ -14,4 +14,7 @@
 * [Linux](linux.md)
 * [版本管理](version_control.md)
   * [Git](version_control/git.md)
+* [cmp\_language](cmplanguage.md)
+  * [python](cmplanguage/python.md)
+    * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
 
