@@ -11,6 +11,7 @@
   * [Jmter](tripod_tools/jmeter/jmeter_readme.md)
     * [处理jmeter返回的json数据](tripod_tools/jmeter/jmeter_returnJsom.md)
 * [SQL](sql.md)
+  * [MySql](sql/mysql.md)
 * [Linux](linux.md)
 * [版本管理](version_control.md)
   * [Git](version_control/git.md)
