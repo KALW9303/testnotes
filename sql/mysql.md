@@ -7,10 +7,7 @@
   $ sudo netstat -tap | grep mysql
   安装
   $ sudo apt-get install mysql-server mysql-client
-
   ```
-
-
 
 ## 授权远程登录
 
