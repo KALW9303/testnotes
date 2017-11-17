@@ -19,6 +19,7 @@
 * [cmp\_language](cmplanguage.md)
   * [python](cmplanguage/python.md)
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
+    * [利用python cmp包比对数据](cmplanguage/python/li-yong-python-cmp-bao-bi-dui-shu-ju.md)
 * [Kali](kali.md)
   * [解决VMware安装Kali后无法登陆](kali/jie-jue-vmware-an-zhuang-kali-hou-wu-fa-deng-lu.md)
 
