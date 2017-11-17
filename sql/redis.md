@@ -2,8 +2,6 @@
 
 > Redis 是完全开源免费的，遵守BSD协议，是一个高性能的key-value数据库。支持的数据类型有字符串、列表、集合、哈希、有序集合。
 
-
-
 ### Redis官网 :  [https://redis.io/](https://redis.io/)
 
 # Redis安装
@@ -45,8 +43,6 @@ PONG
 * #### Windows 系统安装 Redis
 
   > 官网给出的说明是并没有正式支持Windows平台，但是，Microsoft Open Tech组织开发并维护了面向Win64的Window的端口  ===》[Learn more](https://github.com/MSOpenTech/redis)
-
-
 
 # Python操作Redis
 
