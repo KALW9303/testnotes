@@ -22,11 +22,11 @@ python 2.x 、pip已安装
 # pip2 install robotframework
 ```
 
-* 安装wxPython （需先安装依赖包 bcrypt pynacl）
+* 安装wxPython 
 
-```bash
-# pip2 install wxPython
-```
+> RIDE是基于这个库开发的，且目前仅支持**wxPython 2.8.12.1Unicode**版本  下载后一键安装 ** **[**地址**](https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1)
+
+
 
 
 
