@@ -38,6 +38,12 @@ pip install robotframework-ride
 > pip install robotframework-selenium2library
 ```
 
+* 安装 robotframework-requests
+
+```
+> pip install -U robotframework-requests
+```
+
 ## 启动RIDE
 
 ```
