@@ -1,4 +1,4 @@
-# 搭建Robot Framework/RIDE环境
+# 搭建Robot Framework/RIDE/selenium环境
 
 ## 简介
 
@@ -26,7 +26,17 @@ python 2.x 、pip已安装
 
 > RIDE是基于这个库开发的，且目前仅支持**wxPython 2.8.12.1Unicode**版本  下载后一键安装 ** **[**地址**](https://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1)
 
+* 安装RIDE
 
+```
+pip install robotframework-ride
+```
+
+* 安装robotframework-selenium
+
+```
+> pip install robotframework-selenium2library
+```
 
 ## 启动RIDE
 
