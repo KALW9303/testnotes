@@ -19,7 +19,7 @@ python 2.x 、pip已安装
 * 安装Robot Framework
 
 ```bash
-# pip2 install robotframework
+> pip2 install robotframework
 ```
 
 * 安装wxPython 
@@ -28,5 +28,11 @@ python 2.x 、pip已安装
 
 
 
+## 启动RIDE
 
+```
+> py -2 D:\Python27\Scripts\ride.py
+```
+
+![](/assets/ride.png)
 
