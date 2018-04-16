@@ -108,7 +108,7 @@ try {
 
 } catch (JsonProcessingException e) {
 
-       log.info("BeanShell PostProcessor-解密数据 failed============== =========================", ex);
+       log.info("BeanShell PostProcessor-解密数据 failed==============", ex);
 
 }
 ```
