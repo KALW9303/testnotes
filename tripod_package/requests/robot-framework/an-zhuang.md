@@ -1,4 +1,4 @@
-# 搭建Robot Framework/RIDE/selenium环境
+# 部署Robot Framework/RIDE/selenium/requests环境
 
 ## 简介
 
@@ -37,6 +37,12 @@ pip install robotframework-ride
 ```
 > pip install robotframework-selenium2library
 ```
+
+* 下载驱动并放置在`/usr/local/bin/`下
+
+> [Chrome驱动下载地址](http://chromedriver.storage.googleapis.com/index.html)  （选择与Chrome浏览器版本对应的驱动）
+>
+> [Firefox驱动下载地址](https://github.com/mozilla/geckodriver/releases)
 
 * 安装 robotframework-requests
 
