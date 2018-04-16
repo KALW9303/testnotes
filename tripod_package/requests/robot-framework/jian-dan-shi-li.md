@@ -37,7 +37,5 @@ Baidu search case
     close Browser
 ```
 
-运行结果![](/assets/运行结果r.png)![](/assets/QQ截图20180416173634.png)这个事例遇到两个坑： 一个是kali安装的Chrome浏览器不能用root用户打开，另一个是切换普通用户运行脚本不能调起桌面（处理方式：切换普通用户前执行 **`#xhost +`**）
-
-
+运行结果![](/assets/运行结果r.png)![](/assets/QQ截图20180416173634.png)_**注意** 这个事例遇到两个坑： 一个是kali安装的Chrome浏览器不能用root用户打开，另一个是切换普通用户运行脚本不能调起桌面（处理方式：切换普通用户前执行 `#xhost +`）_
 
