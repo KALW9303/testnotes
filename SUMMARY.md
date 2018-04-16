@@ -8,7 +8,7 @@
   * [Requests](tripod_package/requests/requests_readme.md)
     * [获取cookies](tripod_package/requests/requests_getcookies.md)
   * [Robot Framework](tripod_package/requests/robot-framework.md)
-    * [安装](tripod_package/requests/robot-framework/an-zhuang.md)
+    * [部署](tripod_package/requests/robot-framework/an-zhuang.md)
     * [事例](tripod_package/requests/robot-framework/jian-dan-shi-li.md)
   * [Junit](zi-dong-hua-ce-shi-kuang-jia/junit.md)
   * [Jmeter](tripod_tools/jmeter/jmeter_readme.md)
