@@ -25,6 +25,11 @@
   * 磁盘管理
   * 网络管理
   * 系统管理
+* [Kali](kali.md)
+  * w3af
+  * Metasploit
+  * Nmap
+  * Sqlmap
 * [版本管理](version_control.md)
   * [Git](version_control/git.md)
   * GitLab
@@ -36,5 +41,4 @@
     * 数据分析
   * [Java](cmplanguage/java.md)
     * [java请求之HttpClient](cmplanguage/java/javaqing-qiu-zhi-httpclient.md)
-* [Kali](kali.md)
 
