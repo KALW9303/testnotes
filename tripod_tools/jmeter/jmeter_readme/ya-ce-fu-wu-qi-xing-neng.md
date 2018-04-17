@@ -7,7 +7,7 @@
 
 ### 插件下载
 
-* 下载**JMeterPlugins-Standard**和**JMeterPlugins-Extras**解压并将jar包放置Jmeter客户端lib/ext下
+* 下载[**JMeterPlugins-Standard**](http://jmeterplugins.com/downloads/index.html)和[**JMeterPlugins-Extras**](http://jmeterplugins.com/downloads/index.html)解压并将jar包放置Jmeter客户端lib/ext下
 * 下载两个jar包（[**jmeter-plugins-perfmon**](http://www.mvnjar.com/kg.apc/jmeter-plugins-perfmon/jar.html)** 、**[**jmeter-plugins-cmn-jmeter**](http://www.mvnjar.com/kg.apc/jmeter-plugins-cmn-jmeter/jar.html)）并放置jmeter客户端lib/ext下
 * 下载服务端代理 [**ServerAgent**](https://github.com/undera/perfmon-agent/releases/download/2.2.3/ServerAgent-2.2.3.zip) 解压后进入目录
   * Windows 双击**startAgent.bat**
