@@ -16,7 +16,7 @@
 ### Jmeter客户端监听
 
 * 打开Jmeter客户端添加线程组（线程组循环次数勾选**永远**），该线程组下添加若干条http请求
-* 添加监听器Permon Metrics Collector，servers to moniter模块表格中HOST/IP更改被测主机的IP![](/assets/servermoniter.png)![](/assets/serverAgentLog.png)
+* 添加监听器Permon Metrics Collector，servers to moniter模块表格中HOST/IP更改被测主机的IP![](/assets/servermoniternew.png)![](/assets/serverAgentLog.png)
 
 ## _综合性能测试后续添加 ：TODO_
 
