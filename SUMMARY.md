@@ -4,7 +4,7 @@
 * [前言](qian-yan.md)
   * [约定](qian-yan/yue-ding.md)
   * [注意事项](qian-yan/zhu-yi-shi-xiang.md)
-* [自动化测试架包](tripod_package.md)
+* [自动化测试](tripod_package.md)
   * [Requests](tripod_package/requests/requests_readme.md)
     * [获取cookies](tripod_package/requests/requests_getcookies.md)
   * [Robot Framework](tripod_package/requests/robot-framework.md)
@@ -16,6 +16,11 @@
     * [压测服务器性能](tripod_tools/jmeter/jmeter_readme/ya-ce-fu-wu-qi-xing-neng.md)
     * [分布式负载测试](tripod_tools/jmeter/jmeter_readme/fen-bu-shi.md)
   * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
+* [安全](kali.md)
+  * [w3af](kali/w3af.md)
+  * Metasploit
+  * Nmap
+  * Sqlmap
 * [SQL](sql.md)
   * [MySql](sql/mysql.md)
   * [Redis](sql/redis.md)
@@ -26,11 +31,6 @@
   * 磁盘管理
   * 网络管理
   * 系统管理
-* [Kali](kali.md)
-  * w3af
-  * Metasploit
-  * Nmap
-  * Sqlmap
 * [版本管理](version_control.md)
   * [Git](version_control/git.md)
   * GitLab
