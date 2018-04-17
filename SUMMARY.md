@@ -14,6 +14,7 @@
   * [Jmeter](tripod_tools/jmeter/jmeter_readme.md)
     * [处理Json数据](tripod_tools/jmeter/jmeter_readme/chu-li-json-shu-ju.md)
     * [压测服务器性能](tripod_tools/jmeter/jmeter_readme/ya-ce-fu-wu-qi-xing-neng.md)
+    * [分布式负载测试](tripod_tools/jmeter/jmeter_readme/fen-bu-shi.md)
   * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
 * [SQL](sql.md)
   * [MySql](sql/mysql.md)
