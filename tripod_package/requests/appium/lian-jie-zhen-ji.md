@@ -47,5 +47,5 @@ time.sleep(1)
 driver.quit()
 ```
 
-_**注意 ： appium 1.6.5 用sendkeys输入字符会报错，改用set\_value即可**_
+_**注意 ： appium 1.6.x 用send\_keys输入字符会报错，改用set\_value即可**_
 
