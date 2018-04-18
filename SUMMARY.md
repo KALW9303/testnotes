@@ -16,6 +16,8 @@
     * [压测服务器性能](tripod_tools/jmeter/jmeter_readme/ya-ce-fu-wu-qi-xing-neng.md)
     * [分布式负载测试](tripod_tools/jmeter/jmeter_readme/fen-bu-shi.md)
   * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
+  * [Appium](tripod_package/requests/appium.md)
+    * [连接真机](tripod_package/requests/appium/lian-jie-zhen-ji.md)
 * [安全](kali.md)
   * [w3af](kali/w3af.md)
   * Metasploit
