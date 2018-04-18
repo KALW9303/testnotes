@@ -1,4 +1,4 @@
-# 部署Robot Framework/RIDE/selenium/requests环境
+# 部署Robot Framework/RIDE/selenium/Appium/requests环境
 
 ## 简介
 
@@ -32,7 +32,7 @@ python 2.x 、pip已安装
 pip install robotframework-ride
 ```
 
-* 安装robotframework-selenium
+* 安装 robotframework-selenium
 
 ```
 > pip install robotframework-selenium2library
@@ -43,6 +43,12 @@ pip install robotframework-ride
 > [Chrome驱动下载地址](http://chromedriver.storage.googleapis.com/index.html)  （选择与Chrome浏览器版本对应的驱动）
 >
 > [Firefox驱动下载地址](https://github.com/mozilla/geckodriver/releases)
+
+* 安装 robotframework-appiumlibrary
+
+```
+pip install robotframework-appiumlibrary
+```
 
 * 安装 robotframework-requests
 
