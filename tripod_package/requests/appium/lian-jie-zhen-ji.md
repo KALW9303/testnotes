@@ -3,8 +3,6 @@
 * 主机已安装Appium
 * 真机已打开开发者模式并通过USB连接至主机
 
-
-
 #### 启动appium服务
 
 * CMD 输入`adb devices -l`获取真机UUID
@@ -13,10 +11,10 @@
 
 #### 代码执行
 
-以下是执行的官方事例代码
+以下事例是登录微信的小demo
 
 * 获取App Package及Activity![](/assets/getAppact.png)
-* 对事例代码做了一些修改
+* 事例代码
 
 ```py
 # -*- coding:utf-8 -*-
@@ -38,9 +36,16 @@ desired_caps['appActivity'] = 'com.tencent.mm.ui.LauncherUI'
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
-time.sleep(5)
+driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.Button").text("始终允许")').click()
+driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.Button").text("始终允许")').click()
+driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.Button").text("登录")').click()
+driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.Button").text("用微信号/QQ号/邮箱登录")').click()
+time.sleep(1)
+driver.find_element_by_android_uiautomator('new UiSelector().textContains("请填写微信号/QQ号/邮箱")').set_value("meTEST")
+driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.EditText").text("请填写密码")').set_value("abc123")
+time.sleep(1)
 driver.quit()
 ```
 
-
+_**注意 ： appium 1.6.5 用sendkeys输入字符会报错，改用set\_value即可**_
 

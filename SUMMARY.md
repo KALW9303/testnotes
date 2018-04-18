@@ -18,6 +18,7 @@
   * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
   * [Appium](tripod_package/requests/appium.md)
     * [连接真机](tripod_package/requests/appium/lian-jie-zhen-ji.md)
+    * [处理运行测试安装Unlock](tripod_package/requests/appium/chu-li-yunxing-ce-shi-an-zhuang-unlock.md)
 * [安全](kali.md)
   * [w3af](kali/w3af.md)
   * Metasploit
