@@ -31,7 +31,7 @@ Open WeChat App
     close application
 ```
 
-* 执行后运行效果
+* 执行后运行效果如下，若要查看相应的报告及执行日志请查看**.html**文件![](/assets/exeresults.png)
 
 
 
