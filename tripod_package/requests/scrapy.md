@@ -4,8 +4,6 @@
 
 #### [Scrapy官网](https://scrapy.org)
 
-
-
 使用pip安装
 
 ```py
@@ -17,7 +15,12 @@ pip install Scrapy
 * 创建一个scrapy项目
 * 爬取某网站楼盘相关信息并存储在本地数据库
 
+###### 注意 开始之前你需要注意以下几点
 
+1. 已配置好python环境
+2. 已安装Scrapy
+3. 已安装beautifulsoup
+4. 已安装sqlite服务
 
 ### 创建项目
 
@@ -192,7 +195,6 @@ class meDB(object):
             #self.conn.close()
         except Exception:
             raise Exception
-
 ```
 
 \*：_为了创建本地存储表花费了不少时间  ：}_
