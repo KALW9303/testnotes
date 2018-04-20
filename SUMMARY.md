@@ -13,15 +13,15 @@
     * [AppiumLibrary事例](tripod_package/requests/robot-framework/appiumlibrary.md)
   * [Junit](zi-dong-hua-ce-shi-kuang-jia/junit.md)
     * [Java HTTP请求](zi-dong-hua-ce-shi-kuang-jia/junit/java-httpqing-qiu.md)
-  * [Java HTTP请求](cmplanguage/java/javaqing-qiu-zhi-httpclient.md)
   * [Jmeter](tripod_tools/jmeter/jmeter_readme.md)
     * [处理Json数据](tripod_tools/jmeter/jmeter_readme/chu-li-json-shu-ju.md)
     * [压测服务器性能](tripod_tools/jmeter/jmeter_readme/ya-ce-fu-wu-qi-xing-neng.md)
     * [分布式负载测试](tripod_tools/jmeter/jmeter_readme/fen-bu-shi.md)
-  * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
+    * [性能指标分析](tripod_tools/jmeter/jmeter_readme/xing-neng-zhi-biao-fen-xi.md)
   * [Appium](tripod_package/requests/appium.md)
     * [连接真机](tripod_package/requests/appium/lian-jie-zhen-ji.md)
     * [处理运行测试安装Unlock](tripod_package/requests/appium/chu-li-yunxing-ce-shi-an-zhuang-unlock.md)
+  * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
 * [安全](kali.md)
   * [w3af](kali/w3af.md)
   * Metasploit
@@ -30,6 +30,10 @@
 * [SQL](sql.md)
   * [MySql](sql/mysql.md)
   * [Redis](sql/redis.md)
+* [版本管理](version_control.md)
+  * [Git](version_control/git.md)
+  * [GitLab](version_control/gitlab.md)
+  * [SVN](version_control/svn.md)
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
   * 文件编辑
@@ -37,11 +41,6 @@
   * 磁盘管理
   * 网络管理
   * 系统管理
-* [版本管理](version_control.md)
-  * [Git](version_control/git.md)
-  * GitLab
-  * SVN
-* [Java](cmplanguage/java.md)
 * [Language](cmplanguage.md)
   * [python](cmplanguage/python.md)
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
