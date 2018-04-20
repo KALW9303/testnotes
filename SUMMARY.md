@@ -4,7 +4,7 @@
 * [前言](qian-yan.md)
   * [约定](qian-yan/yue-ding.md)
   * [注意事项](qian-yan/zhu-yi-shi-xiang.md)
-* [自动化测试](tripod_package.md)
+* [自动化](tripod_package.md)
   * [Requests](tripod_package/requests/requests_readme.md)
     * [获取cookies](tripod_package/requests/requests_getcookies.md)
   * [Robot Framework](tripod_package/requests/robot-framework.md)
@@ -27,6 +27,7 @@
   * Metasploit
   * Nmap
   * Sqlmap
+* [性能](xing-neng.md)
 * [SQL](sql.md)
   * [MySql](sql/mysql.md)
   * [Redis](sql/redis.md)
@@ -34,8 +35,9 @@
   * [Git](version_control/git.md)
   * [GitLab](version_control/gitlab.md)
   * [SVN](version_control/svn.md)
-  
-<!--
+
+---
+
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
   * 文件编辑
@@ -48,6 +50,4 @@
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
     * [利用python cmp包比对数据](cmplanguage/python/li-yong-python-cmp-bao-bi-dui-shu-ju.md)
     * 数据分析
-
--->
 
