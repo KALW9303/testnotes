@@ -21,6 +21,7 @@
   * [Appium](tripod_package/requests/appium.md)
     * [连接真机](tripod_package/requests/appium/lian-jie-zhen-ji.md)
     * [处理运行测试安装Unlock](tripod_package/requests/appium/chu-li-yunxing-ce-shi-an-zhuang-unlock.md)
+  * [Scrapy](tripod_package/requests/scrapy.md)
   * [selenium](zi-dong-hua-ce-shi-kuang-jia/selenium.md)
 * [安全](kali.md)
   * [w3af](kali/w3af.md)
@@ -36,7 +37,7 @@
   * [GitLab](version_control/gitlab.md)
   * [SVN](version_control/svn.md)
 
-<!--
+---
 
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
@@ -50,4 +51,4 @@
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
     * [利用python cmp包比对数据](cmplanguage/python/li-yong-python-cmp-bao-bi-dui-shu-ju.md)
     * 数据分析
--->
+
