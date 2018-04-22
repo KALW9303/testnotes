@@ -39,7 +39,6 @@
   * [SVN](version_control/svn.md)
 
 <!--
-
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
   * 文件编辑
