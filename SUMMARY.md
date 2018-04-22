@@ -38,7 +38,7 @@
   * [GitLab](version_control/gitlab.md)
   * [SVN](version_control/svn.md)
 
----
+<!--
 
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
@@ -51,5 +51,5 @@
   * [python](cmplanguage/python.md)
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
     * [利用python cmp包比对数据](cmplanguage/python/li-yong-python-cmp-bao-bi-dui-shu-ju.md)
-    * 数据分析
-
+    * 数据分析
+-->
