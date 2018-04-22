@@ -11,6 +11,7 @@
     * [部署](tripod_package/requests/robot-framework/an-zhuang.md)
     * [SeleniumLibrary事例](tripod_package/requests/robot-framework/jian-dan-shi-li.md)
     * [AppiumLibrary事例](tripod_package/requests/robot-framework/appiumlibrary.md)
+    * [RequestsLibrary事例](tripod_package/requests/robot-framework/requestslibraryshi-li.md)
   * [Junit](zi-dong-hua-ce-shi-kuang-jia/junit.md)
     * [Java HTTP请求](zi-dong-hua-ce-shi-kuang-jia/junit/java-httpqing-qiu.md)
   * [Jmeter](tripod_tools/jmeter/jmeter_readme.md)
@@ -37,7 +38,7 @@
   * [GitLab](version_control/gitlab.md)
   * [SVN](version_control/svn.md)
 
-<!--
+---
 
 * [Linux](linux.md)
   * [文档管理](linux/wen-dang-guan-li.md)
@@ -51,4 +52,4 @@
     * [python操作CSV](cmplanguage/python/pythoncao-zuo-csv.md)
     * [利用python cmp包比对数据](cmplanguage/python/li-yong-python-cmp-bao-bi-dui-shu-ju.md)
     * 数据分析
--->
+
